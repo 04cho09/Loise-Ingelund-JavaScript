@@ -1,0 +1,13 @@
+
+
+body{ 
+    margin:25%;
+    padding: 0;
+}
+
+
+div{ 
+    color: aquamarine;
+    display: flex; 
+    width:10%;
+}
