@@ -4,46 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-  />
-  <!-- styles -->
-  <link rel="stylesheet" href="styles.css" />
+    <title>Nav, Main page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
-  <div class="menu"></div>
   <body>
-    <h1>Movie Page!</h1>
+    <h1>Nav</h1>
+    <div class="nav-center">
+      <!-- Nav header -->
+      <div class="nav-header">
+        <img src="icons.png" class="logo" alt="logo" />
 
-    <h2>About me</h2>
-
-    <section class="Movies">
-      <div class="Gallerie">
-        <h2>All the movies</h2>
-        <div class="Underline"></div>
-        <!--Filter buttons-->
-        <!--Movie section-->
+        <button class="nav-toggle">
+          <i class="fas fa-bars"> </i>
+        </button>
       </div>
+      <ul class = "links"> 
 
-      <div class="sections">
-        <article class="menu">
-          <img src="his-house..jpg" class="photo" alt="his-house-poster" />
+      
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="TheMovies.html">Movies and series</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/preciousinhell"> Twitter</a>
+      </li>
+      <li>
+        <a href="https://github.com/04cho09"> Github</a>
+      </li>
+    </ul>
+    </div>
 
-          <div class="item-info">
-            <h4>His House</h4>
-            <h4 class="rating">3,5</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-              earum officiis molestiae quas in sequi molestias quia maxime nobis
-              reprehenderit vitae soluta sunt commodi quo tempora pariatur quae
-              cumque ducimus. 
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
+    <!-- javascript -->
     <script src="script.js"></script>
   </body>
 </html>
