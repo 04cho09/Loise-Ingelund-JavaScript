@@ -231,24 +231,25 @@ nav {
 }
 
 h1 {
-  text-align: center;
-}
-article {
-  background-color: white;
-  color: black;
-  margin: 10%;
-  border: cadetblue 2px;
-  border-radius: 25px;
-  padding: 5%;
-}
-
-.main text {
-  text-align: center;
-  border: 25%;
-  padding: 50%;
-}
-
-.TheMovies.html .flex div:first-child {
+    text-align: center;
+  }
+  article {
+    background-color: white;
+    color: black;
+    margin: 10%;
+    border: cadetblue 2px;
+    border-radius: 25px;
+    padding: 5%;
+  }
+  
+  .main text {
+    text-align: center;
+    border: 25%;
+    padding: 50%;
+  }
+  
+  
+  .TheMovies.html .flex div:first-child {
     flex: 1;
     background-size: cover;
     background-position: center;
@@ -258,7 +259,7 @@ article {
     margin: 2rem;
     flex: 2;
   }
- 
+  
   .flex p {
     font-size: 1rem;
     line-height: 1.4;
@@ -304,17 +305,22 @@ article {
       min-height: 200px;
     }
   }
-
-
-.poster
+.menu items
 {
-    width: 250px;
+flex-direction: row;
+}
+.item-info
+{
+    width: 60%;
     padding: 60px;
     margin-bottom: 5%;
-    align-items: center;
+    align-items:flex-start;
 }
 
-.TheMovies.html{
-
-
-}
+  .photo 
+  {
+    width: 60%;
+    padding: 60px;
+    margin-bottom: 5%;
+    align-items: flex-start;
+  }
