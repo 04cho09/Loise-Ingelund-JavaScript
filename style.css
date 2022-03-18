@@ -177,11 +177,10 @@ nav {
 .nav-toggle:hover {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
-  
 }
-  .icons {
-    height: 40px;
-  }
+.icons {
+  height: 40px;
+}
 
 .links a {
   color: var(--clr-grey-3);
