@@ -240,6 +240,7 @@ h1 {
     border: cadetblue 2px;
     border-radius: 25px;
     padding: 5%;
+    align-content:space-between ;
   }
   
   .main text {
@@ -307,7 +308,7 @@ h1 {
   }
 .menu items
 {
-flex-direction: row;
+flex-direction:column-reverse;
 }
 .item-info
 {
@@ -317,11 +318,6 @@ flex-direction: row;
     align-items:flex-start;
 }
 
-  .American-Psycho.jpg
-  {
-    width: 60%;
-    padding: 60px;
-    margin-bottom: 5%;
-    align-items: flex-start;
-  }
+ 
+
 
