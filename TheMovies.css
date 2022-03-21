@@ -308,14 +308,14 @@ h1 {
   }
 .menu items
 {
-flex-direction:column-reverse;
+flex-direction:end;
 }
 .item-info
 {
     width: 60%;
     padding: 60px;
     margin-bottom: 5%;
-    align-items:flex-start;
+    align-items:flex-end;
 }
 
  
